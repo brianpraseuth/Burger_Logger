@@ -1,11 +1,27 @@
-html {
-    background-image: black;
+body {
+    background-image: url(/assets/img/burger-seamless-pattern-background-vector-design_22159-34.jpg);
 }
 
-.h1 {
-    color: red;
+h1 {
+    color: darkred;
+    font-size: 100px;
 }
 
-text {
-    color: red;
+.container {
+    height: auto;
+    position: relative }
+
+.container {
+    margin: 0;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: .90;
+    padding: 20px;
+    border: darkred solid 5px;
 }
+
+
